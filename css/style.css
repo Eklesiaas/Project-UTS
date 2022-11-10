@@ -1,0 +1,186 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: lavender;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.container {
+    width: 920px;
+    margin: 0 auto;
+    background: lavender;
+    padding-top: 20px;
+}
+
+.header {
+    height: 60px;
+}
+.icon {
+    width: 160px;
+    float: left;
+    padding-left: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    margin-right: 10px;
+}
+ 
+.menu ul li {
+    float: left;
+    background: #acacac;
+    margin-left: 10px;
+}
+.menu ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu ul li a:hover:not(.active) {
+    background-color: #111;
+}
+menu ul .active {
+    background-color: #4CAF50;
+}
+.clearfix {
+    clear:both;
+    display:table;
+    content:'';
+}
+h1 {
+    padding: 0;
+    margin: 0;
+}
+.content {
+    padding: 10px;
+}
+.content h2 {
+    text-align: center;
+    color: darkred;
+}
+
+.item:hover:not(.active) {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.item {
+    width: 270px;
+    float: left;
+    background: #acacac;
+    margin: 5px 5px;
+    padding: 30px 10px;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.item h3 {
+    margin: 0;
+}
+
+.item p {
+    margin: 0;
+}
+.riwayat, .akfivitas {
+    margin-bottom: 40px;
+}
+.riwayat {
+    border-bottom: 2px solid  rgb(50, 209, 237);
+}
+.riwayat p, .aktivitas p {
+    text-align: center;
+    margin-bottom: 30px;
+    color:brown
+}
+.riwayat h3, .aktivitas h3 {
+    text-align: center;
+    color: black;
+}
+.riwayat-image, .aktivitas-image, .portofolio-image {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.box a {
+    text-decoration: none;
+}
+
+.portofolio {
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    background: rgb(231, 9, 76);
+    padding: 4px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.portofolio h3 {
+    margin: 8px 0;
+}
+.portofolio-image img {
+    width: 100%;
+}
+
+.galeri {
+    padding: 5px;
+    width: 440px;
+    float: left;
+}
+.galeri img {
+    width: 100%;
+}
+
+
+
+table{
+	border-collapse: collapse;
+	position: relative;
+	margin: auto;
+	font-size: 12px;
+}
+
+table th,
+table td{
+	border: 1px solid rgb(237, 59, 174);
+	padding: 7px 17px;
+	text-align: center;
+	color: #191970;
+	font-family: cursive;
+}
+
+table thead th{
+	background-color: rgb(237, 59, 174);
+	color: #191970;
+	border-color: #b0c4de;
+	text-transform: uppercase;
+}
+
+table tbody{
+	color: #D2691E;
+}
+
+table tbody tr:nth-child(odd) td{
+	background-color: #87cefa;
+}
+
+table tbody tr:hover td{
+	background-color: #FFF8DC;
+	border-color: #D2691E;
+	transition: all .2s;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: inherit;
+} 
+
+.footer {
+    text-align: center;
+}
